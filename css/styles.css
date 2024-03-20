@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", "Raleway", sans-serif;
-    color: #2e2f42;
+    color: #434455;
     background: #fff;
 }
 
@@ -13,13 +13,13 @@ a {
 }
 
 .logo {
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .span-name {
@@ -29,7 +29,7 @@ a {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .menu {
@@ -38,6 +38,20 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.menu:hover,
+.menu:active {
+    #404bbf
+}
+
+.address-font {
+    font-style: normal;
+}
+
+.menu:hover,
+.menu:active {
+    color: #404bbf
 }
 
 .contacts {
@@ -67,7 +81,6 @@ a {
 }
 
 .button {
-    cursor: pointer;
     background: #4d5ae5;
     border-radius: 4px;
     padding: 16px 32px;
@@ -106,10 +119,15 @@ a {
 .name-our {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
+}
+
+.name-our-text {
+    background-color: #FFFFFF
 }
 
 .name-team {
@@ -156,10 +174,10 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
 .footer-text {
