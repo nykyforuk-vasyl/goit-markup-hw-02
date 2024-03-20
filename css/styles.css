@@ -41,7 +41,7 @@ a {
 }
 
 .menu:hover,
-.menu:active {
+.menu:focus {
     color: #404bbf;
 }
 
@@ -50,7 +50,7 @@ a {
 }
 
 .menu:hover,
-.menu:active {
+.menu:focus {
     color: #404bbf
 }
 
@@ -63,7 +63,7 @@ a {
 }
 
 .contacts:hover,
-.contacts:active {
+.contacts:focus {
     color: #404bbf
 }
 
