@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Raleway", sans-serif;
     color: #2e2f42;
     background: #fff;
 }
@@ -48,6 +48,11 @@ a {
     color: #434455;
 }
 
+.contacts:hover,
+.contacts:focus {
+    color: tomato;
+}
+
 .hero {
     background: #2e2f42;
 }
@@ -61,18 +66,23 @@ a {
     color: #fff;
 }
 
-.click {
+.button {
+    cursor: pointer;
     background: #4d5ae5;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
-    height: 56px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
 }
+
+.button:hover,
+.button:active {
+    background-color: #404BBF;
+}
+
 
 .name-features {
     font-weight: 500;
@@ -83,7 +93,6 @@ a {
 }
 
 .text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -113,7 +122,6 @@ a {
 }
 
 .name-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -134,7 +142,6 @@ a {
 }
 
 .list-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -156,7 +163,6 @@ a {
 }
 
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
