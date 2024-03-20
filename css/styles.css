@@ -83,8 +83,6 @@ a {
 .button {
     cursor: pointer font-family: "Roboto", sans-serif;
     background: #4d5ae5;
-    border-radius: 4px;
-    padding: 16px 32px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -178,7 +176,11 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
+}
+
+.span-footer-name {
+    color: #f4f4fd
 }
 
 .footer-text {
