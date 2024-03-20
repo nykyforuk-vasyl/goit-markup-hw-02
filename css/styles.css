@@ -63,8 +63,8 @@ a {
 }
 
 .contacts:hover,
-.contacts:focus {
-    color: #404bbf;
+.contacts:active {
+    color: #404bbf
 }
 
 .hero {
@@ -81,7 +81,8 @@ a {
 }
 
 .button {
-    cursor: pointer font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -92,7 +93,7 @@ a {
 
 .button:hover,
 .button:active {
-    background-color: #404BBF;
+    background-color: #404BBF
 }
 
 
